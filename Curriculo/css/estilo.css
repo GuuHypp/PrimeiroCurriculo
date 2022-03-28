@@ -1,0 +1,164 @@
+*{
+	font-family: "Roboto Mono";
+	margin: 0px;
+	padding: 0px;
+}
+
+@keyframes animacao-link{
+	from{/* Estado Inicial */
+		background: #d8e7f0;
+		border-radius: 50%;
+	}
+
+	to{/* Estado Final */
+		border-radius: 0%;
+	}
+}
+
+body{
+	background: url(../img/dev-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+#corpo{
+	background: #ccc;
+	width: 80%;
+	height: 2000px;
+	margin: 10px auto;
+}
+
+header img{
+	margin: 5px;
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+header h1{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 5px;
+	padding-right: 50px;
+}
+
+header p{
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+	padding-right: 50px;
+}
+
+.detalhes{
+	float: left;
+	position: relative;
+	top: 120px;
+	left: -150px;
+	width: 300px;
+}
+
+.detalhes label{
+	font: bold 15px "Trebuchet Ms", sans-serif;
+	color: #0055bd;
+	line-height: 30px;
+
+}
+
+.detalhes p{
+	color: #616161;
+	font-size: 15px; 
+	text-align: justify;
+	position: relative;
+	left: 20px;
+}
+
+hr{
+	position: relative;
+	top: 170px;
+	width: 90%;
+	margin: auto;
+}
+
+.skills{
+	margin: 20px 0px;
+}
+
+.skills table{
+	border: 1px solid ;
+	position: relative;
+	left: 20px;
+}
+
+.skills table td{
+	font-size: 15px;
+	font-style: italic;
+	color: #616161;
+	line-height: 20px;
+	padding: 2px 5px;
+
+}
+
+.skills table td.borda{
+	border-right: 1px solid;
+
+}
+
+.contato a{
+	color: #000;
+	position: relative;
+	top: 30px;
+	left: 10px;
+	padding: 10px;
+	text-decoration: none;
+
+	font-size: 15px;
+}
+
+.contato a:visited{
+	color: #000;
+}
+
+.contato a:hover{
+	animation: animacao-link 2s 99 ;
+}
+
+.contato img{
+	width: 25px;
+	height: 25px;
+	margin: 5px;
+	vertical-align: middle;
+}
+
+.jobs{
+	position: relative;
+	top: 150px;
+	left: -80px;
+}
+
+.jobs h2{
+	background: #0055bd;
+	color: #FFF;
+	margin-left: 455px;
+}
+
+.jobs h3{
+	margin-top: 30px;
+	color: #0055bd;
+	font-size: 20px;
+}
+
+.jobs h4{
+	font-size: 15px;
+}
+
+.jobs h5{
+	font-weight: bolder;
+	font-size: 10px;
+}
+
+.jobs p{
+	font-size: 17px;
+}
